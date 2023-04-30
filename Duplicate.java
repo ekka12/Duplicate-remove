@@ -1,9 +1,9 @@
-import java.util.*;
+import java.util.Arrays;
 
 public class Duplicate {
 
 	public static void main(String[] args) {
-		int arr[]= {1,1};
+		int arr[]= {1,2,2,33,33,4,5,2,1};
 		Arrays.sort(arr);
 		int c=1;
 		int count=1;
